@@ -1,0 +1,25 @@
+{
+    "projectColors.name": "oorh-website",
+    "projectColors.mainColor": "#8c2317",
+    "projectColors.isActivityBarColored": false,
+    "projectColors.isTitleBarColored": true,
+    "projectColors.isStatusBarColored": false,
+    "projectColors.isProjectNameColored": true,
+    "projectColors.isActiveItemsColored": false,
+    "projectColors.setWindowTitle": true,
+    "window.title": "oorh-website",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#8c2317",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#8c2317",
+        "titleBar.inactiveForeground": "#ffffff90",
+        "statusBarItem.warningBackground": "#8c2317",
+        "statusBarItem.warningForeground": "#ffffff",
+        "statusBarItem.warningHoverBackground": "#8c2317",
+        "statusBarItem.warningHoverForeground": "#ffffff90",
+        "statusBarItem.remoteBackground": "#8c2317",
+        "statusBarItem.remoteForeground": "#ffffff",
+        "statusBarItem.remoteHoverBackground": "#8c2317",
+        "statusBarItem.remoteHoverForeground": "#ffffff90"
+    }
+}
