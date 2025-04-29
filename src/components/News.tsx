@@ -1,7 +1,5 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
-import Image from "next/image";
 import { Linkedin } from "lucide-react";
 
 // Sample news data - you could move this to a separate file or fetch from an API
