@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="h-screen flex flex-col md:flex-row justify-center items-center -bg-linear-40 from-rose-200 motion-bg to-rose-50 pt-20 relative overflow-hidden"
+      className="h-screen flex flex-col md:flex-row justify-center items-center -bg-linear-40 from-rose-100 motion-bg to-rose-50/50 pt-20 relative overflow-hidden"
     >
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="flex items-center justify-center mr-8 mb-4 md:mb-0">
