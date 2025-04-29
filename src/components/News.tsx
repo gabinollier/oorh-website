@@ -2,27 +2,6 @@
 
 import { Linkedin } from "lucide-react";
 
-// Sample news data - you could move this to a separate file or fetch from an API
-const newsItems = [
-  {
-    id: 1,
-    title: "Nouveau partenariat stratégique",
-    date: "15 avril 2025",
-    excerpt: "Nous sommes ravis d'annoncer notre nouveau partenariat avec...",
-    imageUrl: "/images/news/partnership.jpg",
-    link: "https://www.linkedin.com/company/your-company/posts/"
-  },
-  {
-    id: 2,
-    title: "Webinaire sur les ressources humaines",
-    date: "3 avril 2025",
-    excerpt: "Rejoignez-nous pour un webinaire exclusif sur les dernières tendances RH...",
-    imageUrl: "/images/news/webinar.jpg",
-    link: "https://www.linkedin.com/company/your-company/posts/"
-  },
-  // Add more news items as needed
-];
-
 export function News() {
   return (
     <>
