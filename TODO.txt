@@ -1,0 +1,8 @@
+
+* faire des sections :
+    * Qui suis-je ? -> Odile ollier, CV atouts etc (CV en carrousel avec logo, titre année, qualité dans la structure)
+    * Mes services -> entreprise, le service qui est proposé RRH/DRH à temps partagé
+    * Mes domaines d'intervention -> gallerie de cards avec un titre et une petite explication du truc proposé
+    * section "Ils me font confiance"
+    * mes actualités (déjà là)
+    * me contacter 

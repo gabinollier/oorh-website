@@ -53,15 +53,18 @@ export function Header() {
   }, [activeSection]);
 
   return (
-    <header ref={headerRef} className="bg-white/70 backdrop-blur-lg shadow-md shadow-rose-950/10 fixed w-full z-20">
-      <div className="container mx-auto p-6 flex justify-between items-center">
-        <div className="text-2xl font-bold">OORH</div>
+    <header ref={headerRef} className="bg-white backdrop-blur-xl border-b border-white/20 shadow-xl fixed w-full z-20 before:absolute before:inset-0 before:bg-gradient-to-r before:from-rose-50/10 before:to-transparent before:pointer-events-none">
+      <div className="container mx-auto p-6 flex justify-between items-center relative z-10">
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="OORH Logo" className="h-10 w-10" />
+          <div className="text-2xl font-bold">OORH</div>
+        </div>
         <nav className="space-x-10">
           {sections.map(({ id, label }) => (
             <a
               key={id}
               href={`#${id}`}
-              className="hover:text-rose-700"
+              className="hover:text-rose-700 transition-all duration-300 relative px-2 py-1  hover:bg-white/30 hover:backdrop-blur-sm"
             >
               {label}
             </a>
@@ -71,7 +74,7 @@ export function Header() {
 
       {/* Sliding underline at header bottom */}
       <span
-        className="absolute bottom-0 h-0.5 bg-rose-700 transition-all duration-300"
+        className="absolute bottom-0 h-1 bg-gradient-to-r from-rose-600 to-rose-700 transition-all duration-300 rounded-full shadow-sm"
         style={{ left: underlineStyle.left, width: underlineStyle.width + 20, marginLeft: -10 }}
       />
     </header>
