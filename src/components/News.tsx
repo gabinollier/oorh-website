@@ -2,6 +2,7 @@
 
 import { Linkedin, ExternalLink } from "lucide-react";
 import { useState } from "react";
+import Image from 'next/image';
 
 // Define a type for news items
 type NewsItem = {
@@ -110,9 +111,11 @@ function ImageWithFallback({ src, alt, className }: { src: string; alt: string; 
   }
 
   return (
-    <img 
+    <Image 
       src={src} 
-      alt={alt} 
+      alt={alt}
+      width={400}
+      height={300}
       className={className}
       onError={() => setError(true)}
     />

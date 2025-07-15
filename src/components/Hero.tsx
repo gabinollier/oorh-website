@@ -1,9 +1,9 @@
-"use client"; // Add this line for client-side hooks
+"use client";
 
-import React, { useEffect } from "react"; // Import useEffect
+import React from "react";
 import Image from 'next/image';
-import useEmblaCarousel from 'embla-carousel-react'; // Import Embla hook
-import Autoplay from 'embla-carousel-autoplay'; // Import Autoplay plugin
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 
 const quotes = [
   { text: "La grandeur d'un métier est avant tout d'unir les Hommes ; Il n'est qu'un luxe véritable et c'est celui des relations humaines.", cite: "Antoine de Saint-Exupéry" },
@@ -12,12 +12,10 @@ const quotes = [
 ] ;
 
 export function Hero() {
-  const [emblaRef, emblaApi] = useEmblaCarousel(
+  const [emblaRef] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ delay: 5000 })] // Add Autoplay plugin with 5-second delay
+    [Autoplay({ delay: 5000 })]
   );
-
-  // Optional: Add autoplay or other plugins later if needed
 
   return (
     <section
@@ -110,7 +108,7 @@ export function Hero() {
           {quotes.map((quote, index) => (
             <div className="embla__slide flex-[0_0_100%] min-w-0 px-4" key={index}>
               <blockquote className="text-center italic text-lg md:text-xl text-white/90 font-serif mb-2">
-                "{quote.text}"
+                &ldquo;{quote.text}&rdquo;
               </blockquote>
               <cite className="block text-center text-white/70 font-serif text-sm">
                 — {quote.cite}

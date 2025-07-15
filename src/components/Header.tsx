@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
+import Image from 'next/image';
 
 const sections = [
   { id: "hero",       label: "Accueil"       },
@@ -56,7 +57,7 @@ export function Header() {
     <header ref={headerRef} className="bg-white backdrop-blur-xl border-b border-white/20 shadow-xl fixed w-full z-20 before:absolute before:inset-0 before:bg-gradient-to-r before:from-rose-50/10 before:to-transparent before:pointer-events-none">
       <div className="container mx-auto p-6 flex justify-between items-center relative z-10">
         <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="OORH Logo" className="h-10 w-10" />
+          <Image src="/logo.png" alt="OORH Logo" width={40} height={40} className="h-10 w-10" />
           <div className="text-2xl font-bold">OORH</div>
         </div>
         <nav className="space-x-10">

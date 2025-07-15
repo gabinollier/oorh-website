@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export function Domains() {
   return (
@@ -50,7 +51,7 @@ export function Domains() {
 
         <h3 className="text-2xl font-semibold mt-4 mb-2">Attractivité et fidélisation (Marketing RH & marque employeur)</h3>
         <p className="mb-4">Faire la différence pour attirer et fidéliser les talents : définir votre promesse employeur, identifier votre cible, choisir les canaux et créer du contenu engageant.</p>
-        <img src="/news/test.jpg" alt="Marque employeur" className="w-full h-auto mb-4" />
+        <Image src="/news/test.jpg" alt="Marque employeur" width={800} height={600} className="w-full h-auto mb-4" />
 
         <h3 className="text-2xl font-semibold mt-4 mb-2">Développement organisationnel</h3>
         <ul className="list-disc list-inside mb-4">
