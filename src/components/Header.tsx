@@ -3,11 +3,13 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const sections = [
-  { id: "hero",    label: "Accueil"    },
-  { id: "about",   label: "À Propos"   },
-  { id: "skills",  label: "Compétences"},
-  { id: "news",    label: "Actualités" },
-  { id: "contact", label: "Contact"    },
+  { id: "hero",       label: "Accueil"       },
+  { id: "about",      label: "À Propos"      },
+  { id: "importance", label: "Pourquoi RH"  },
+  { id: "missions",   label: "Missions"      },
+  { id: "domains",    label: "Domaines"      },
+  { id: "news",       label: "Actualités"    },
+  { id: "contact",    label: "Contact"       },
 ];
 
 export function Header() {
@@ -51,7 +53,7 @@ export function Header() {
   }, [activeSection]);
 
   return (
-    <header ref={headerRef} className="bg-white/50 backdrop-blur-xl shadow-md shadow-rose-950/10 fixed w-full z-10">
+    <header ref={headerRef} className="bg-white/70 backdrop-blur-lg shadow-md shadow-rose-950/10 fixed w-full z-20">
       <div className="container mx-auto p-6 flex justify-between items-center">
         <div className="text-2xl font-bold">OORH</div>
         <nav className="space-x-10">
