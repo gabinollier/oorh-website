@@ -13,7 +13,7 @@ export function Missions() {
         <p className="mb-4">Le management de transition dans les Ressources Humaines consiste à intégrer temporairement un profil expert au sein d&apos;une organisation pour répondre à un besoin précis et urgent lié à une situation délicate. Le manager de transition peut être sollicité pour :</p>
         <ul className="list-disc list-inside">
           <li>Occuper un poste vacant suite à un départ ou à une absence prolongée, afin de garantir la continuité de service des processus RH</li>
-          <li>Piloter des projets spécifiques : conduire une évolution majeure du Système d'Information RH (SIRH), accompagner une transition numérique…</li>
+          <li>Piloter des projets spécifiques : conduire une évolution majeure du Système d&apos;Information RH (SIRH), accompagner une transition numérique…</li>
           <li>Renforcer temporairement une équipe : en période de surcharge ou dans un contexte de crise interne</li>
           <li>Accompagner un changement organisationnel important (fusion, acquisition, fermeture de site, restructuration)</li>
         </ul>
