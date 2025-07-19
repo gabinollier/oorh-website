@@ -6,3 +6,6 @@
     * section "Ils me font confiance"
     * mes actualités (déjà là)
     * me contacter 
+
+
+pour alléger le header, enlever le bouton Accueil et le remplacer par un bouton sur le logo OORH

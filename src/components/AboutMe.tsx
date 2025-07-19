@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
 import { CheckCircle2, Heart, GraduationCap } from 'lucide-react';
 
 const experiences = [
@@ -58,7 +57,7 @@ const experiences = [
 
 ];
 
-export function WhoAmI() {
+export function AboutMe() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ 
     loop: false, 
     align: 'center',
@@ -105,7 +104,7 @@ export function WhoAmI() {
         {/* Header */}
         <div className="mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-rose-900 mb-6 motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000">
-            Qui suis-je ?
+            À propos de moi
           </h2>
           <div className="max-w-3xl">
             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">

@@ -1,9 +1,8 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
-import { WhoAmI } from "../components/WhoAmI";
-import { Missions } from "../components/Missions";
-import { Why } from "../components/Why";
+import { AboutMe } from "../components/AboutMe";
+import { Services } from "../components/Services";
 import { Domains } from "../components/Domains";
 import { News } from "../components/News";
 import { Contact } from "../components/Contact";
@@ -15,8 +14,8 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <WhoAmI />
-        <Missions />
+        <AboutMe />
+        <Services />
         <Domains />
         <News />
         <Contact />
