@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const sections = [
   { id: "hero",       label: "Accueil"       },
-  { id: "about",      label: "À Propos"      },
+  { id: "about",      label: "À Propos de moi"      },
   { id: "importance", label: "Pourquoi RH"  },
   { id: "missions",   label: "Missions"      },
   { id: "domains",    label: "Domaines"      },

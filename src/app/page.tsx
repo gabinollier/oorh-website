@@ -1,7 +1,7 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
-import { About } from "../components/About";
+import { WhoAmI } from "../components/WhoAmI";
 import { Missions } from "../components/Missions";
 import { Why } from "../components/Why";
 import { Domains } from "../components/Domains";
@@ -15,8 +15,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Why />
+        <WhoAmI />
         <Missions />
         <Domains />
         <News />
