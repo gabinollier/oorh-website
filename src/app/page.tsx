@@ -4,6 +4,7 @@ import { Hero } from "../components/Hero";
 import { AboutMe } from "../components/AboutMe";
 import { Services } from "../components/Services";
 import { Domains } from "../components/Domains";
+import { Clients } from "../components/Clients";
 import { News } from "../components/News";
 import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
@@ -18,6 +19,7 @@ export default function Home() {
         <Services />
         <Domains />
         <News />
+        <Clients />
         <Contact />
       </main>
       <Footer />

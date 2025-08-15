@@ -18,24 +18,24 @@ type NewsItem = {
 const newsItems: NewsItem[] = [
   {
     id: "news1",
-    title: "Nouvelle formation en leadership accessible",
-    description: "Je suis heureuse d'annoncer le lancement de ma nouvelle formation en leadership adaptée aux besoins des entreprises modernes.",
-    date: "15 avril 2025",
-    imageUrl: "/news/test.jpg",
+    title: "Example 1",
+    description: "jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza ",
+    date: "15 juillet 2025",
+    imageUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/odile-ollier-088025190/recent-activity/",
   },
   {
     id: "news2",
-    title: "Atelier RH : Gestion des talents",
-    description: "Retour sur notre dernier atelier consacré aux meilleures pratiques de gestion des talents et d'intégration.",
+    title: "Example 2",
+    description: "jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza.",
     date: "28 mars 2025",
     imageUrl: "/news/atelier-rh.jpg",
     linkedinUrl: "https://www.linkedin.com/in/odile-ollier-088025190/recent-activity/",
   },
   {
     id: "news3",
-    title: "Interview : L'avenir du recrutement",
-    description: "J'ai récemment partagé ma vision de l'avenir du recrutement et des RH dans une interview exclusive.",
+    title: "Example 3",
+    description: "jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza jfuifhjza.",
     date: "10 février 2025",
     imageUrl: "/news/interview.jpg",
     linkedinUrl: "https://www.linkedin.com/in/odile-ollier-088025190/recent-activity/",
@@ -46,15 +46,20 @@ export function News() {
   return (
     <>
       <section id="news" className="py-20 bg-white scroll-m-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-10">Actualités</h2>
+        <div className="container mx-auto px-6 max-w-7xl">
+          {/* Header */}
+          <div className="mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-rose-900 mb-6 motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000">
+              Actualités
+            </h2>
+          </div>
           
           {/* Custom News Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {newsItems.map((item, index) => (
               <div 
                 key={item.id}
-                className={"intersect:motion-preset-slide-up bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full" + " " + ["motion-delay-500", "motion-delay-1000", "motion-delay-1500"][index % 3]}
+                className={"motion-preset-slide-up bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full" + " " + ["motion-delay-500", "motion-delay-1000", "motion-delay-1500"][index % 3]}
               >
                 <div className="aspect-w-16 aspect-h-9 relative">
                   <ImageWithFallback

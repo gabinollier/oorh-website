@@ -1,71 +1,103 @@
+"use client";
+
 import React from "react";
-import Image from 'next/image';
+import {
+  Users,
+  Briefcase,
+  FileText,
+  DollarSign,
+  Award,
+  MessageSquare,
+  Target,
+  Building,
+  BrainCircuit
+} from "lucide-react";
+
+const domains = [
+  {
+    icon: Users,
+    title: "Recrutement & Intégration",
+    description: "Accompagnement pour recruter les meilleurs profils et garantir une expérience candidat positive.",
+  },
+  {
+    icon: Briefcase,
+    title: "Conseils & Audits RH",
+    description: "Prestations de conseil sur-mesure et audits de conformité (légal, réglementaire, conventionnel).",
+  },
+  {
+    icon: FileText,
+    title: "Gestion administrative",
+    description: "Suivi des contrats, paie, plannings, tableaux de bord, procédures disciplinaires et SIRH.",
+  },
+  {
+    icon: DollarSign,
+    title: "Rémunérations",
+    description: "Définition de politiques de rémunération et gestion de la paie, incluant la conformité européenne 2026.",
+  },
+  {
+    icon: Award,
+    title: "Gestion des compétences",
+    description: "Développement des compétences (PDC), GEPP et optimisation des parcours de carrière.",
+  },
+  {
+    icon: MessageSquare,
+    title: "Relations sociales",
+    description: "Organisation des élections du CSE, négociation d'accords et gestion du climat social.",
+  },
+  {
+    icon: Target,
+    title: "Marque employeur",
+    description: "Stratégies pour attirer et fidéliser les talents en définissant une promesse employeur forte.",
+  },
+  {
+    icon: Building,
+    title: "Développement organisationnel",
+    description: "Alignement de la culture d'entreprise, optimisation des processus et communication interne.",
+  },
+  {
+    icon: BrainCircuit,
+    title: "Management & Leadership",
+    description: "Accompagnement des managers et développement des compétences en leadership.",
+  },
+];
 
 export function Domains() {
   return (
     <section id="domains" className="py-20 bg-white scroll-m-20">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-6">Mes domaines d’interventions</h2>
+      <div className="container mx-auto px-6 max-w-7xl">
+        {/* Header */}
+        <div className="mb-16">
+          <h2 className="text-4xl lg:text-5xl font-bold text-rose-900 mb-6 motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000">
+            Mes domaines d’intervention
+          </h2>
+          <p className="text-lg lg:text-xl text-gray-700 leading-relaxed max-w-3xl motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
+            Mon expertise couvre l’ensemble des fonctions RH pour structurer, développer et sécuriser votre organisation.
+          </p>
+        </div>
 
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Recrutements et parcours d’intégration (On-boarding)</h3>
-        <p className="mb-4">Vous accompagner pour recruter les meilleurs profils et garantir un process de recrutement fiable, valide, équitable et porteur d’une expérience candidat positive.</p>
-        <blockquote className="italic border-l-4 pl-4 mb-4">« de la rigueur, de la méthode, de la structuration et de l’harmonie dans nos processus de recrutement tout en garantissant une grande humanité sur la forme. » <br/><cite>Villemus, P. (2023). Le recrutement gagnant !</cite></blockquote>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Accompagnement et conseils RH</h3>
-        <p className="mb-4">Prise en charge possible par votre OPCO pour des prestations de conseil adaptées à vos besoins.</p>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Audits RH</h3>
-        <p className="mb-4">Vérification de votre conformité aux obligations légales, réglementaires et conventionnelles.</p>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Gestion administrative du personnel</h3>
-        <ul className="list-disc list-inside mb-4">
-          <li>Suivi administratif et contrats de travail</li>
-          <li>Paie et déclarations sociales</li>
-          <li>Gestion des plannings et absences</li>
-          <li>Tableaux de bord RH</li>
-          <li>Procédures disciplinaires et ruptures de contrat</li>
-          <li>Mise en place de prévoyance santé et SIRH</li>
-        </ul>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Rémunérations</h3>
-        <ul className="list-disc list-inside mb-4">
-          <li>Définition et mise en place de politiques de rémunération</li>
-          <li>Gestion de la paie et des déclarations sociales</li>
-          <li>Accompagnement vers la conformité à la directive européenne sur la transparence des rémunérations (applicable dès 2026)</li>
-        </ul>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Gestion des compétences</h3>
-        <ul className="list-disc list-inside mb-4">
-          <li>Plan de Développement des Compétences (PDC) et plan de formation</li>
-          <li>Gestion des Emplois et Parcours Professionnels (GEPP)</li>
-          <li>Entretiens d’évaluation et professionnels</li>
-          <li>Optimisation des parcours de carrière</li>
-        </ul>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Gestion des relations sociales</h3>
-        <ul className="list-disc list-inside mb-4">
-          <li>Organisation des élections du CSE</li>
-          <li>Climat social et négociation d’accords (temps de travail, télétravail, participation, intéressement, etc.)</li>
-          <li>Mise en œuvre de la Négociation Annuelle Obligatoire (NAO)</li>
-        </ul>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Attractivité et fidélisation (Marketing RH & marque employeur)</h3>
-        <p className="mb-4">Faire la différence pour attirer et fidéliser les talents : définir votre promesse employeur, identifier votre cible, choisir les canaux et créer du contenu engageant.</p>
-        <Image src="/news/test.jpg" alt="Marque employeur" width={800} height={600} className="w-full h-auto mb-4" />
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Développement organisationnel</h3>
-        <ul className="list-disc list-inside mb-4">
-          <li>Culture et valeurs d’entreprise</li>
-          <li>Communication interne</li>
-          <li>Optimisation des processus internes</li>
-        </ul>
-
-        <h3 className="text-2xl font-semibold mt-4 mb-2">Management et Leadership</h3>
-        <ul className="list-disc list-inside">
-          <li>Management d’équipes</li>
-          <li>Accompagnement de managers</li>
-        </ul>
-
+        {/* Domains Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {domains.map((domain, index) => {
+            const Icon = domain.icon;
+            return (
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 flex flex-col motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000"
+                style={{ animationDelay: `${300 + index * 100}ms` }}
+              >
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-rose-100 rounded-2xl flex items-center justify-center mr-5">
+                    <Icon className="w-8 h-8 text-rose-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-rose-900 leading-snug">{domain.title}</h3>
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  {domain.description}
+                </p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

@@ -99,7 +99,7 @@ export function AboutMe() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-rose-50/30 to-white scroll-m-20">
+    <section id="about" className="py-20 bg-gradient-to-br from-rose-50/50 to-white scroll-m-20">
       <div className="container mx-auto px-6 max-w-7xl">
         {/* Header */}
         <div className="mb-16">
@@ -108,7 +108,7 @@ export function AboutMe() {
           </h2>
           <div className="max-w-3xl">
             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-              Forte de plusieurs années d'expériences dans des environnements multi-sites et multi-entités, je suis très vite opérationnelle et apporte une vraie valeur ajoutée à toute organisation. 
+              Forte de plusieurs années d&apos;expériences dans des environnements multi-sites et multi-entités, je suis très vite opérationnelle et apporte une vraie valeur ajoutée à toute organisation. 
               Mon approche combine expertise technique et vision humaine pour créer des solutions RH adaptées à vos enjeux.
             </p>
           </div>
@@ -125,7 +125,7 @@ export function AboutMe() {
               <h3 className="text-2xl font-bold text-rose-900">Mes atouts</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Mon expérience, mon expertise, mes connaissances et compétences me permettent d'être 
+              Mon expérience, mon expertise, mes connaissances et compétences me permettent d&apos;être 
               <span className="font-semibold"> immédiatement opérationnelle</span>.
             </p>
           </div>
@@ -138,7 +138,7 @@ export function AboutMe() {
               </div>
               <h3 className="text-2xl font-bold text-rose-900">Mes valeurs</h3>
             </div>
-            <ul className="space-y-3">
+            <ul className="space-y-3 pt-2">
               <li className="flex items-center text-gray-700">
                 <div className="w-2 h-2 bg-rose-400 rounded-full mr-3"></div>
                 <span className="font-medium">Engagement</span>
@@ -164,8 +164,8 @@ export function AboutMe() {
             </div>
             <p className="text-gray-700 leading-relaxed">
               Un <span className="font-semibold">Master 2 tout récent</span> de Management des Ressources Humaines 
-              et des Organisations à l'IAE de Lyon qui fut 9 mois riches en apprentissage, perfectionnement, 
-              ouverture d'esprit et rencontres inspirantes.
+              et des Organisations à l&apos;IAE de Lyon qui fut 9 mois riches en apprentissage, perfectionnement, 
+              ouverture d&apos;esprit et rencontres inspirantes.
             </p>
           </div>
         </div>
@@ -177,7 +177,7 @@ export function AboutMe() {
               <h3 className="text-3xl font-bold text-rose-900">Mon parcours</h3>
             </div>
             <p className="text-lg text-gray-600 w-full">
-              Découvrez mon expérience diversifiée dans les ressources humaines et la gestion d'entreprise
+              Découvrez mon expérience diversifiée dans les ressources humaines et la gestion d&apos;entreprise
             </p>
           </div>
 
