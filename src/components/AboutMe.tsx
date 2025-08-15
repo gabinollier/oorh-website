@@ -263,7 +263,7 @@ export function AboutMe() {
                     }
                   }}
                   className="w-2 h-2 bg-gray-300 rounded-full"
-                  aria-label={`Aller à l'élément ${index + 1}`}
+                  aria-label={`Aller à l&apos;élément ${index + 1}`}
                 />
               ))}
               {/* Pill */}
