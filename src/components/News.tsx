@@ -107,7 +107,7 @@ export function News() {
 function ImageWithFallback({ src, alt, className }: { src: string; alt: string; className?: string }) {
   const [error, setError] = useState(false);
 
-  if (error) {
+  if (error || src === "") {
     return (
       <div className={`bg-sky-100 flex items-center justify-center ${className}`}>
         <Linkedin className="w-12 h-12 text-sky-600" />
