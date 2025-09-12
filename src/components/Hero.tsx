@@ -41,11 +41,11 @@ export function Hero() {
           <div className="flex flex-col lg:flex-row items-center justify-center gap-20 lg:gap-32">
             {/* Photo - same height as content */}
             <div className="flex-shrink-0 motion-opacity-in-0 motion-translate-x-in-[-50] motion-duration-1000 motion-delay-300">
-              <div className="w-[400px] h-[400px] overflow-hidden rounded-full shadow-2xl">
+              <div className="w-[350px] h-[350px] overflow-hidden rounded-full shadow-2xl">
                 <Image
                   src="/photo.png"
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   alt="Odile Ollier - Consultante RH"
                   className="w-full h-full object-cover"
                 />
@@ -53,21 +53,21 @@ export function Hero() {
             </div>
             
             {/* Content - matching height */}
-            <div className="flex flex-col justify-center text-center lg:text-left max-w-2xl h-[400px] motion-opacity-in-0 motion-translate-x-in-50 motion-duration-1000 motion-delay-500">
-              <div className="mb-8">
-                <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-white font-sans tracking-tight">
+            <div className="flex flex-col justify-center text-center lg:text-left max-w-2xl h-[350px] motion-opacity-in-0 motion-translate-x-in-50 motion-duration-1000 motion-delay-500">
+              <div className="my-8">
+                <h1 className="text-5xl lg:text-6xl font-bold text-white font-sans tracking-tight">
                   Odile Ollier
                 </h1>
-                <p className="text-lg lg:text-xl text-white/70 italic mt-2">
+                <p className="text-lg text-white/70 italic mt-1.5">
                   Consultante experte en Ressources Humaines
                 </p>
               </div>
               
-              <div className="space-y-6 mb-8 flex-1 flex flex-col justify-center">
-                <p className="text-lg lg:text-xl text-white/85 leading-relaxed">
+              <div className="space-y-5 mb-8 flex-1 flex flex-col justify-center">
+                <p className="text-lg text-white/85 leading-relaxed">
                   Je vous accompagne dans la gestion et le développement de votre capital humain.
                 </p>
-                <div className="text-base lg:text-lg text-white/75 space-y-2">
+                <div className="text-base text-white/75 space-y-1">
                   <div className="flex items-center justify-center lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full"></div>
                     <span>Solutions RH personnalisées</span>
