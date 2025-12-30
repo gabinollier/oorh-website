@@ -7,6 +7,22 @@ import { CheckCircle2, Heart, GraduationCap } from 'lucide-react';
 
 const experiences = [
   {
+    period: "1993 - 2000",
+    title: "Assistante de gestion",
+    company: "Proteg Securité - Securitas",
+    description: "Gestion des ressources humaines (200 salariés), compabilité et gestion",
+    logo: "/logo-securitas.jpg",
+    type: "experience"
+  },
+  {
+    period: "2000-2005",
+    title: "Responsable Administrative",
+    company: "Just A Link",
+    description: "Responsable des Ressources Humaines (40 salariés), comptabilité et gestion, assistante du dirigeant et encadrement d'équipe",
+    logo: "/logo-jal.gif",
+    type: "experience"
+  },
+  {
     period: "2005 - 2007",
     title: "Collaboratrice comptable",
     company: "Cabinet ALIX et Associés",
@@ -15,42 +31,42 @@ const experiences = [
     type: "experience"
   },
   {
-    period: "2007 - 2013",
-    title: "Responsable du service RH",
+    period: "2007 - 2016",
+    title: "RRH et Responsable administrative et comptable",
     company: "CEDAT-JEAN Automobiles",
-    description: "Suivi administratif (+300 salariés), formation DCG",
-    logo: "/logo-renault.jpg",
+    description: "Responsable des ressources humaines (+300 salariés), comptabilité et gestion, support et management",
+    logo: "/logo-cedat-jean.jpg",
     type: "experience"
   },
   {
-    period: "2013 - 2016",
-    title: "RRH et Responsable administrative",
-    company: "Groupe CEDAT-JEAN Automobiles",
-    description: "Responsable service RH avec management de 3 collaborateurs",
-    logo: "/logo-renault.jpg",
+    period: "2012 - 2015",
+    title: "Formatrice",
+    company: "Pôle La Chartreuse",
+    description: "Formation en droit du travail aux étudiants préparant un Diplôme de Comptabilité et de Gestion (DCG)",
+    logo: "/logo-la-chartreuse.png",
     type: "experience"
   },
   {
     period: "2017 - 2024",
     title: "DRH et Responsable administrative",
     company: "SCP ALTILABO",
-    description: "Directrice RH (~110 salariés), comptabilité et gestion",
+    description: "Directrice RH (~110 salariés), comptabilité et gestion, support à la direction, aux managers et encadrement d'équipes",
     logo: "/logo-altilabo.webp",
     type: "experience"
   },
   {
-    period: "En cours",
+    period: "2024 - 2025",
     title: "Master 2 Management des RH et des Organisations",
     company: "IAE de Lyon",
-    description: "Formation Continue en Management des Ressources Humaines",
+    description: "Formation continue en Management des Ressources Humaines et des Organisations",
     logo: "/logo-iaelyon.png",
     type: "formation"
   },
   {
     period: "Depuis 04/2025",
     title: "DRH à temps partagé",
-    company: "OORH",
-    description: "Directrice des Ressources Humaines",
+    company: "OO'RH",
+    description: "Ressources Humaines et gestion administrative et financière à temps partagé, conseils RH, recrutements et formation",
     logo: "/logo.png",
     type: "experience"
   },
@@ -58,8 +74,8 @@ const experiences = [
 ];
 
 export function AboutMe() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ 
-    loop: false, 
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: false,
     align: 'center',
     containScroll: false,
     dragFree: false,
@@ -108,8 +124,8 @@ export function AboutMe() {
           </h2>
           <div className="max-w-3xl">
             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-              Forte de plusieurs années d&apos;expériences dans des environnements multi-sites et multi-entités, je suis très vite opérationnelle et apporte une vraie valeur ajoutée à toute organisation. 
-              Mon approche combine expertise technique et vision humaine pour créer des solutions RH adaptées à vos enjeux.
+              Forte d’une expérience confirmée dans divers environnements, j’apporte une double expertise tant opérationnelle que stratégique. Mon approche combine savoir faire et savoir être pour créer des solutions et des outils adaptées à vos enjeux.
+
             </p>
           </div>
         </div>
@@ -125,7 +141,7 @@ export function AboutMe() {
               <h3 className="text-2xl font-bold text-rose-900">Mes atouts</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Mon expérience, mon expertise, mes connaissances et compétences me permettent d&apos;être 
+              Mon expérience, mon expertise, mes connaissances et compétences me permettent d&apos;être
               <span className="font-semibold"> immédiatement opérationnelle</span>.
             </p>
           </div>
@@ -145,11 +161,15 @@ export function AboutMe() {
               </li>
               <li className="flex items-center text-gray-700">
                 <div className="w-2 h-2 bg-rose-400 rounded-full mr-3"></div>
-                <span className="font-medium">Honnêteté</span>
+                <span className="font-medium">Intégrité</span>
               </li>
               <li className="flex items-center text-gray-700">
                 <div className="w-2 h-2 bg-rose-400 rounded-full mr-3"></div>
-                <span className="font-medium">Empathie</span>
+                <span className="font-medium">Respect</span>
+              </li>
+              <li className="flex items-center text-gray-700">
+                <div className="w-2 h-2 bg-rose-400 rounded-full mr-3"></div>
+                <span className="font-medium">Diplomatie</span>
               </li>
             </ul>
           </div>
@@ -163,9 +183,9 @@ export function AboutMe() {
               <h3 className="text-2xl font-bold text-rose-900">Le petit plus</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Un <span className="font-semibold">Master 2 tout récent</span> de Management des Ressources Humaines 
-              et des Organisations à l&apos;IAE de Lyon qui fut 9 mois riches en apprentissage, perfectionnement, 
-              ouverture d&apos;esprit et rencontres inspirantes.
+              Un <span className="font-semibold">Master 2 tout récent</span> de Management des Ressources Humaines
+              et des Organisations à l&apos;IAE de Lyon qui fut 12 mois riches en apprentissage, perfectionnement,
+              ouverture d&apos;esprit et prises de hauteur.
             </p>
           </div>
         </div>
@@ -185,7 +205,7 @@ export function AboutMe() {
             <div className="embla__container flex py-6">
               {experiences.map((exp, index) => (
                 <div className="embla__slide flex-[0_0_90%] md:flex-[0_0_35%] lg:flex-[0_0_28%] min-w-0 px-1 md:px-3" key={index}>
-                  <div className="bg-white rounded-2xl shadow-lg transition-all duration-300 p-6 h-full border border-gray-100">
+                  <div className="bg-white rounded-2xl shadow-lg transition-all duration-300 p-6 h-full border border-gray-100 flex flex-col">
                     {/* Header with logo and period */}
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center">
@@ -207,8 +227,8 @@ export function AboutMe() {
                       </span>
                     </div>
 
-                    {/* Content */}
-                    <div className="space-y-3">
+                    {/* Content - flex-grow to push type indicator to bottom */}
+                    <div className="space-y-3 flex-grow">
                       <h4 className="font-bold text-lg text-gray-900 leading-tight">
                         {exp.title}
                       </h4>
@@ -220,13 +240,12 @@ export function AboutMe() {
                       </p>
                     </div>
 
-                    {/* Type indicator */}
+                    {/* Type indicator - anchored at bottom */}
                     <div className="mt-4 pt-4 border-t border-gray-100">
-                      <span className={`inline-flex items-center text-xs font-medium px-2 py-1 rounded-full ${
-                        exp.type === 'formation' 
-                          ? 'bg-blue-100 text-blue-700' 
-                          : 'bg-rose-100 text-rose-700'
-                      }`}>
+                      <span className={`inline-flex items-center text-xs font-medium px-2 py-1 rounded-full ${exp.type === 'formation'
+                        ? 'bg-blue-100 text-blue-700'
+                        : 'bg-rose-100 text-rose-700'
+                        }`}>
                         {exp.type === 'formation' ? (
                           <>
                             <GraduationCap className="w-3 h-3 mr-1" />

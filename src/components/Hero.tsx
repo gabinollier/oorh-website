@@ -7,9 +7,10 @@ import Autoplay from 'embla-carousel-autoplay';
 
 const quotes = [
   { text: "La grandeur d'un métier est avant tout d'unir les Hommes ; Il n'est qu'un luxe véritable et c'est celui des relations humaines.", cite: "Antoine de Saint-Exupéry" },
-  { text: "Les deux choses les plus importantes n'apparaissent pas au bilan de l'entreprise : sa réputation et ses Hommes.", cite: "Henry Ford" },
-  { text: "Se réunir est un début, rester ensemble est un progrès, travailler ensemble est la réussite.", cite: "Henri Ford" },
-] ;
+  { text: "Si vous vous occupez de votre personnel, ils s’occuperont de vos clients.", cite: "Richard Branson" },
+  { text: "Les ressources financières représentent le réseau sanguin d’une entreprise, les ressources humaines en sont le cerveau.", cite: "Rob Silzer" },
+  { text: "Les ressources humaines ne sont pas quelque chose que nous faisons, c’est ce qui permet à notre entreprise de fonctionner.", cite: "Steve Wynne" },
+];
 
 export function Hero() {
   const [emblaRef] = useEmblaCarousel(
@@ -35,7 +36,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/60 z-1 motion-opacity-in-100 motion-duration-1500"></div>
 
       {/* Main content area */}
-      <div className="flex-1 flex items-center justify-center z-10 px-4 md:px-6 lg:px-8">
+      <div className="flex-1 flex items-center justify-center z-10 px-4 md:px-6 lg:px-8 mb-20">
         <div className="max-w-6xl mx-auto w-full">
           {/* Professional layout: photo and content */}
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12 lg:gap-20 xl:gap-32">
@@ -51,47 +52,51 @@ export function Hero() {
                 />
               </div>
             </div>
-            
+
             {/* Content */}
-            <div className="flex flex-col justify-center text-center lg:text-left max-w-2xl motion-opacity-in-0 motion-translate-x-in-50 motion-duration-1000 motion-delay-500">
+            <div className="flex flex-col justify-center text-left max-w-2xl motion-opacity-in-0 motion-translate-x-in-50 motion-duration-1000 motion-delay-500">
               <div className="mb-6 md:mb-8">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white font-sans tracking-tight leading-tight">
                   Odile Ollier
                 </h1>
                 <p className="text-base md:text-lg text-white/70 italic mt-1 md:mt-1.5">
-                  Consultante experte en Ressources Humaines
+                  Experte à temps partagé en management des Ressources Humaines et en gestion administrative et financière
                 </p>
               </div>
-              
-              <div className="space-y-3 md:space-y-5 mb-6 md:mb-8">
-                <p className="text-base md:text-lg text-white/85 leading-relaxed">
-                  Je vous accompagne dans la gestion et le développement de votre capital humain.
+
+              <div className="space-y-2 md:space-y-3 mb-6 md:mb-8">
+                <p className="text-base md:text-lg text-white/90 ">
+                  Je vous accompagne dans la gestion et le développement de votre strucutre :
                 </p>
-                <div className="text-sm md:text-base text-white/75 space-y-1">
-                  <div className="flex items-center justify-center lg:justify-start gap-2">
+                <div className="text-sm md:text-base text-white/70 space-y-1">
+                  <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
-                    <span>Solutions RH personnalisées</span>
+                    <span>Solutions RH et de gestion personnalisées</span>
                   </div>
-                  <div className="flex items-center justify-center lg:justify-start gap-2">
+                  <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
-                    <span>Performance optimisée</span>
+                    <span>Expertise confirmée, flexibilité et agilité</span>
                   </div>
-                  <div className="flex items-center justify-center lg:justify-start gap-2">
+                  <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
-                    <span>Expertise confirmée</span>
+                    <span>Performances sociale, économique et financière optimisées et durables</span>
+                  </div>
+                  <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
+                    <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
+                    <span>Coûts maîtrisés</span>
                   </div>
                 </div>
               </div>
-              
+
               {/* Professional CTA Button */}
               <div className="flex justify-center lg:justify-start motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-700">
-                <button 
+                <button
                   onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                   className="group bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-700 hover:to-rose-800 text-white font-semibold py-3 px-6 md:py-4 md:px-8 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-rose-500/50 text-sm md:text-base"
                 >
                   <span className="flex items-center gap-2 md:gap-3">
                     En savoir plus
-                    <svg className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:motion-translate-x-loop-25 motion-duration-1000" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </span>
@@ -103,14 +108,14 @@ export function Hero() {
       </div>
 
       {/* Embla Carousel for Quotes - hidden on mobile to save space */}
-      <div className="hidden md:block z-10 embla embla-fade w-full max-w-3xl mx-auto px-4 mb-8 lg:mb-12 motion-opacity-in-0 motion-duration-1500 motion-delay-1000" ref={emblaRef}>
+      <div className="text-md absolute bottom-4 left-1/2 transform -translate-x-1/2 hidden md:block z-10 embla embla-fade w-full max-w-6xl px-4 motion-opacity-in-0 motion-duration-1500 motion-delay-1000" ref={emblaRef}>
         <div className="embla__container flex">
           {quotes.map((quote, index) => (
-            <div className="embla__slide flex-[0_0_100%] min-w-0 px-4" key={index}>
-              <blockquote className="text-center italic text-lg lg:text-xl text-white/90 font-serif mb-2">
+            <div className="embla__slide flex-[0_0_100%] min-w-0 px-4 flex flex-col justify-end min-h-[120px]" key={index}>
+              <blockquote className="text-center italic text-white/90 font-serif mb-2">
                 &ldquo;{quote.text}&rdquo;
               </blockquote>
-              <cite className="block text-center text-white/70 font-serif text-sm">
+              <cite className="block text-center text-white/70 font-serif not-italic">
                 — {quote.cite}
               </cite>
             </div>

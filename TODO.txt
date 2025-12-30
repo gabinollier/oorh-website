@@ -1,11 +1,3 @@
-
-* faire des sections :
-    X Qui suis-je ? -> Odile ollier, CV atouts etc (CV en carrousel avec logo, titre année, qualité dans la structure)
-    X Mes services -> entreprise, le service qui est proposé RRH/DRH à temps partagé
-    * Mes domaines d'intervention -> gallerie de cards avec un titre et une petite explication du truc proposé
-    * section "Ils me font confiance"
-    * mes actualités (déjà là)
-    * me contacter 
-
-
-pour alléger le header, enlever le bouton Accueil et le remplacer par un bouton sur le logo OORH
+- mettre le header en blanc tout en haut
+- mettre le type d'expérience aliginé en bas
+- améliorer les spacing dans le hero (citation tout en bas, le reste mieux centré)

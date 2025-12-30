@@ -86,7 +86,7 @@ export function Domains() {
                 style={{ animationDelay: `${300 + index * 100}ms` }}
               >
                 <div className="flex items-center mb-6">
-                  <div className="w-16 h-16 bg-rose-100 rounded-2xl flex items-center justify-center mr-5">
+                  <div className="w-16 h-16 bg-rose-100 rounded-2xl flex items-center justify-center mr-5 flex-shrink-0">
                     <Icon className="w-8 h-8 text-rose-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-rose-900 leading-snug">{domain.title}</h3>

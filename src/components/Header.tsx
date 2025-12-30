@@ -8,7 +8,6 @@ const sections = [
   { id: "about",      label: "À Propos"      },
   { id: "services",   label: "Services"      },
   { id: "domains",    label: "Domaines"      },
-  { id: "news",       label: "Actualités"    },
   { id: "contact",    label: "Contact"       },
 ];
 
@@ -58,12 +57,12 @@ export function Header() {
   };
 
   return (
-    <header ref={headerRef} className="bg-white/90 backdrop-blur-xl border-b border-white/20 shadow-xl fixed w-full z-20 before:absolute before:inset-0 before:bg-gradient-to-r before:from-rose-50/10 before:to-transparent before:pointer-events-none">
+    <header ref={headerRef} className="bg-white/70 backdrop-blur-lg border-b border-white/20 shadow-md fixed w-full z-20 before:absolute before:inset-0 before:bg-gradient-to-r before:from-rose-50/10 before:to-transparent before:pointer-events-none">
       <div className="container mx-auto px-4 py-3 md:p-6 flex justify-between items-center relative z-10">
         {/* Logo */}
         <div className="flex items-center gap-2 md:gap-3">
           <Image src="/logo.png" alt="OORH Logo" width={32} height={32} className="h-8 w-8 md:h-10 md:w-10" />
-          <div className="text-xl md:text-2xl font-bold">OORH</div>
+          <div className="text-xl md:text-2xl font-bold">OO'RH</div>
         </div>
 
         {/* Desktop Navigation */}
@@ -72,7 +71,7 @@ export function Header() {
             <a
               key={id}
               href={`#${id}`}
-              className="hover:text-rose-700 transition-all duration-300 relative px-2 py-1 hover:bg-white/30 hover:backdrop-blur-sm text-sm lg:text-base"
+              className="hover:text-rose-700 transition-all duration-300 relative px-2 py-1 text-sm lg:text-base"
             >
               {label}
             </a>
@@ -92,7 +91,7 @@ export function Header() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className={`md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-b border-white/20 shadow-xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'}`}>
+      <div className={`md:hidden absolute top-full left-0 right-0 bg-white/80 backdrop-blur-xl border-b border-white/20 shadow-xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'}`}>
         <nav className="container mx-auto px-4 py-4 space-y-3">
           {sections.map(({ id, label }) => (
             <a

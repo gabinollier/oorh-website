@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from 'next/image';
-import { Mail, MapPin, Clock, Phone, MessageSquare } from "lucide-react";
+import { Mail, MapPin, Clock, Phone, MessageSquare, Linkedin, Link, ExternalLink } from "lucide-react";
 
 export function Contact() {
   return (
@@ -35,7 +35,7 @@ export function Contact() {
                   </span>
                 </div>
                 <p className="text-md text-gray-600 mt-2">
-                  Contactez pour discuter de vos besoins et voir comment je peux vous accompagner.
+                  Contactez-moi pour discuter de vos besoins et voir comment je peux vous accompagner.
                 </p>
               </div>
 
@@ -58,15 +58,18 @@ export function Contact() {
                 {/* Phone */}
                 <div className="flex items-start gap-4">
                   <div className="bg-rose-100 p-3 rounded-full">
-                    <Phone className="text-rose-600" size={24} />
+                    <Linkedin className="text-rose-600" size={24} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Téléphone</h4>
+                    <h4 className="font-semibold text-gray-900 mb-1">Linkedin</h4>
                     <a 
-                      href="tel:+33612345678" 
+                      href="https://www.linkedin.com/in/odile-ollier" 
                       className="text-rose-600 hover:text-rose-700 transition-colors text-lg"
+                      target="_blank"
                     >
-                      06 12 34 56 78
+                      <div className="flex items-center gap-2">
+                        odile-ollier <ExternalLink size={16}/>
+                      </div>
                     </a>
                   </div>
                 </div>

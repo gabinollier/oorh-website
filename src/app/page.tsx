@@ -18,7 +18,6 @@ export default function Home() {
         <AboutMe />
         <Services />
         <Domains />
-        <News />
         <Clients />
         <Contact />
       </main>
