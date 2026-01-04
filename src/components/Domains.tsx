@@ -29,7 +29,7 @@ const domains = [
   },
   {
     icon: FileText,
-    title: "Gestion administrative",
+    title: "Gestion administrative du personnel",
     description: "Gestion des contrats de travail, des temps de travail, de la paie, des indicateurs RH, du suivi administratif des salariés jusqu’à la sortie des effectifs.",
   },
   {
