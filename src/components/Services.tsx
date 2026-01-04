@@ -49,7 +49,7 @@ export function Services() {
             Mes services
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 leading-relaxed max-w-3xl motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-            Véritable <span className="font-semibold">couteau suisse</span>, j'interviens sur des missions variées pour répondre à tous vos besoins organisationnels.
+            Véritable <span className="font-semibold">couteau suisse</span>, j&apos;interviens sur des missions variées pour répondre à tous vos besoins organisationnels.
           </p>
         </div>
 

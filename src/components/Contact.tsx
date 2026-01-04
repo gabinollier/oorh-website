@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from 'next/image';
-import { Mail, MapPin, Clock, Phone, MessageSquare, Linkedin, Link, ExternalLink } from "lucide-react";
+import { Mail, MapPin, Clock, MessageSquare, Linkedin, ExternalLink } from "lucide-react";
 
 export function Contact() {
   return (
@@ -31,7 +31,7 @@ export function Contact() {
                 <div className="flex items-center gap-3 text-rose-700">
                   <MessageSquare size={20} />
                   <span className="font-medium text-lg">
-                    Prêt·e à échanger sur vos projets RH ?
+                    À votre écoute !
                   </span>
                 </div>
                 <p className="text-md text-gray-600 mt-2">

@@ -36,7 +36,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/60 z-1 motion-opacity-in-100 motion-duration-1500"></div>
 
       {/* Main content area */}
-      <div className="flex-1 flex items-center justify-center z-10 px-4 md:px-6 lg:px-8 mb-20">
+      <div className="flex-1 flex items-center justify-center z-10 px-4 md:px-6 lg:px-8 mb-10">
         <div className="max-w-6xl mx-auto w-full">
           {/* Professional layout: photo and content */}
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12 lg:gap-20 xl:gap-32">
@@ -66,7 +66,7 @@ export function Hero() {
 
               <div className="space-y-2 md:space-y-3 mb-6 md:mb-8">
                 <p className="text-base md:text-lg text-white/90 ">
-                  Je vous accompagne dans la gestion et le développement de votre strucutre :
+                  Je vous accompagne dans la gestion et le développement de votre structure :
                 </p>
                 <div className="text-sm md:text-base text-white/70 space-y-1">
                   <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
@@ -111,7 +111,7 @@ export function Hero() {
       <div className="text-md absolute bottom-4 left-1/2 transform -translate-x-1/2 hidden md:block z-10 embla embla-fade w-full max-w-6xl px-4 motion-opacity-in-0 motion-duration-1500 motion-delay-1000" ref={emblaRef}>
         <div className="embla__container flex">
           {quotes.map((quote, index) => (
-            <div className="embla__slide flex-[0_0_100%] min-w-0 px-4 flex flex-col justify-end min-h-[120px]" key={index}>
+            <div className="embla__slide flex-[0_0_100%] min-w-0 px-4 flex flex-col justify-end" key={index}>
               <blockquote className="text-center italic text-white/90 font-serif mb-2">
                 &ldquo;{quote.text}&rdquo;
               </blockquote>

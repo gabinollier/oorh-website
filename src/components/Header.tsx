@@ -62,7 +62,7 @@ export function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2 md:gap-3">
           <Image src="/logo.png" alt="OORH Logo" width={32} height={32} className="h-8 w-8 md:h-10 md:w-10" />
-          <div className="text-xl md:text-2xl font-bold">OO'RH</div>
+          <div className="text-xl md:text-2xl font-bold">OO&apos;RH</div>
         </div>
 
         {/* Desktop Navigation */}
