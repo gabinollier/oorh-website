@@ -20,11 +20,11 @@ export function Clients() {
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight">
             Ils m&apos;ont fait confiance
           </h2>
-          <p className="mt-4 text-base leading-7 text-gray-600">
+          {/* <p className="mt-4 text-base leading-7 text-gray-600">
             J&apos;ai eu le plaisir de collaborer avec des organisations engagées,
             apportant mon expertise pour structurer et optimiser leurs
             ressources humaines.
-          </p>
+          </p> */}
         </div>
         <div className="mx-auto mt-12 max-w-2xl">
           <div className="rounded-2xl bg-gradient-to-br from-green-50 to-green-50/20 p-6 shadow-lg ring-1 ring-green-200 motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000">

@@ -60,7 +60,7 @@ export function Hero() {
                   Odile Ollier
                 </h1>
                 <p className="text-base md:text-lg text-white/70 italic mt-1 md:mt-1.5">
-                  Experte à temps partagé en management des Ressources Humaines et en gestion administrative et financière
+                  Experte, à temps partagé, en management des Ressources Humaines et en gestion administrative et financière
                 </p>
               </div>
 

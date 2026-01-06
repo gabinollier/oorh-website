@@ -185,7 +185,7 @@ export function AboutMe() {
             <p className="text-gray-700 leading-relaxed">
               Un <span className="font-semibold">Master 2 tout récent</span> de Management des Ressources Humaines
               et des Organisations à l&apos;IAE de Lyon qui fut 12 mois riches en apprentissage, perfectionnement,
-              ouverture d&apos;esprit et prises de hauteur.
+              ouverture d&apos;esprit et prise de hauteur.
             </p>
           </div>
         </div>
@@ -197,7 +197,7 @@ export function AboutMe() {
               <h3 className="text-3xl font-bold text-rose-900">Mon parcours</h3>
             </div>
             <p className="text-lg text-gray-600 w-full">
-              Découvrez mon expérience diversifiée dans les ressources humaines et la gestion d&apos;entreprise
+              Découvrez mon expérience diversifiée dans la gestion des ressources humaines et la gestion administrative et financière
             </p>
           </div>
 

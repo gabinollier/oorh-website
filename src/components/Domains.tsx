@@ -30,7 +30,7 @@ const domains = [
   {
     icon: FileText,
     title: "Gestion administrative du personnel",
-    description: "Gestion des contrats de travail, des temps de travail, de la paie, des indicateurs RH, du suivi administratif des salariés jusqu’à la sortie des effectifs.",
+    description: "Gestion des contrats de travail, des temps de travail, de la paie, des indicateurs RH, du suivi administratif des salariés jusqu’à leur sortie des effectifs.",
   },
   {
     icon: DollarSign,
@@ -45,17 +45,17 @@ const domains = [
   {
     icon: MessageSquare,
     title: "Relations sociales",
-    description: `Organisation des élections du CSE, animation des réunions et négociation d&apos;accords d’entreprise avec un objectif : maintenir un bon climat social.`,
+    description: `Organisation des élections du CSE, animation des réunions et négociation d'accords d'entreprise avec un point de mire : maintenir un bon climat social.`,
   },
   {
     icon: BrainCircuit,
     title: "Management & Leadership",
-    description: "Support des managers pour la gestion au quotidien des équipes, la gestion des conflits, les demandes individuelles ou l’organisation du travail.",
+    description: "Support des managers pour la gestion au quotidien des équipes, la gestion des conflits, les demandes individuelles des salariés ou l’organisation du travail.",
   },
   {
     icon: Building,
     title: "Développement organisationnel",
-    description: "Alignement de la politique RH avec la culture d&apos;entreprise, mise en place ou optimisation de processus RH et d’outils tels qu’un SIRH."
+    description: "Alignement de la politique RH avec la culture d'entreprise, mise en place ou optimisation de processus RH et d’outils tels qu’un SIRH."
   },
   {
     icon: Target,
@@ -91,7 +91,8 @@ export function Domains() {
             Mes domaines d’intervention
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 max-w-5xl motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-            <span>Mon expertise couvre tous les contours de la fonction RH pour piloter, structurer, développer et sécuriser la gestion des Ressources Humaines de votre entreprise.</span> <br/>
+            <span>Mon expertise couvre tous les contours de la fonction RH pour piloter, structurer, développer et sécuriser la gestion de vos Ressources Humaines mais aussi la gestion administrative et financière de votre entreprise.
+</span> <br/>
             <span className="mt-3 block">Elle peut être complétée par un volet de gestion administrative et financière.</span>
           </p>
         </div>

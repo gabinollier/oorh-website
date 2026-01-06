@@ -18,23 +18,23 @@ const services = [
   },
   {
     icon: Calculator,
-    title: "Fonctions comptables, administratives et financières",
+    title: "Sur les fonctions comptables, administratives et financières",
     description:
       "Formalisation des procédures comptables, transfert de compétences, tenue de la comptabilité, mise en place et suivi d'une comptabilité prévisionnelle, élaboration de situations intermédiaires…",
     highlight: "Expertise financière",
   },
   {
     icon: CalendarClock,
-    title: "Prestations à temps partagé",
+    title: "En prestations à temps partagé",
     description:
-      "Selon vos besoins, quelques jours par semaine ou par mois, dans votre entreprise. Une solution flexible et économique pour bénéficier d'une expertise de haut niveau.",
+      "Selon vos besoins, quelques jours par semaine ou par mois, dans votre entreprise. Une solution flexible et économique tout en bénéficiant d'une réelle expertise.",
     highlight: "Flexibilité totale",
   },
   {
     icon: Hourglass,
     title: "Sur la durée ou dans l'attente...",
     description:
-      "...du retour d'un salarié en arrêt de travail de longue durée ou d'un recrutement pérenne. Je m'adapte à votre temporalité pour assurer la continuité de vos opérations.",
+      "...du retour d'un salarié en arrêt de travail de longue durée ou d'un recrutement pérenne. Je m'adapte à votre temporalité pour assurer la continuité de vos services.",
     highlight: "Continuité assurée",
   },
 ];
@@ -49,7 +49,7 @@ export function Services() {
             Mes services
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 leading-relaxed max-w-3xl motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-            Véritable <span className="font-semibold">couteau suisse</span>, j&apos;interviens sur des missions variées pour répondre à tous vos besoins organisationnels.
+            Véritable <span className="font-semibold">couteau suisse</span>, j&apos;interviens :
           </p>
         </div>
 
