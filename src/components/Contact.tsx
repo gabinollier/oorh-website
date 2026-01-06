@@ -35,7 +35,7 @@ export function Contact() {
                   </span>
                 </div>
                 <p className="text-md text-gray-600 mt-2">
-                  Vous souhaitez être accompagnés sur un sujet RH, sur la fonction RH, sur des sujets de gestion administrative et financière, contactez-moi.
+                  Vous souhaitez être accompagnés sur un sujet RH, sur la fonction RH, sur des sujets de gestion administrative et financière ? Vous pouvez me contacter par mail en me laissant vos coordonnées, je vous rappelerai en retour.
                 </p>
               </div>
 
