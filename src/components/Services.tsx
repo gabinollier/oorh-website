@@ -49,7 +49,7 @@ export function Services() {
             Mes services
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 leading-relaxed max-w-3xl motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-            Véritable <span className="font-semibold">couteau suisse</span>, j&apos;interviens :
+            Véritable <span className="font-semibold">support et partenaire de confiance</span>, j&apos;interviens :
           </p>
         </div>
 

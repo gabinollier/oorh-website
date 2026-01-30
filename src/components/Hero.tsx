@@ -71,7 +71,7 @@ export function Hero() {
                 <div className="text-sm md:text-base text-white/70 space-y-1">
                   <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
-                    <span>Solutions RH et de gestion personnalisées</span>
+                    <span>Solutions personnalisées, conseils et assistance en RH et gestion financière</span>
                   </div>
                   <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
@@ -79,11 +79,11 @@ export function Hero() {
                   </div>
                   <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
-                    <span>Performances sociale, économique et financière optimisées et durables</span>
+                    <span>Coûts maîtrisés</span>
                   </div>
                   <div className="text-white/70 hover:text-white/90 transition-colors duration-300 hover:duration-0 flex items-center justify-start lg:justify-start gap-2">
                     <div className="w-2 h-2 bg-rose-400 rounded-full flex-shrink-0"></div>
-                    <span>Coûts maîtrisés</span>
+                    <span>Performances sociale, économique et financière optimisées et durables</span>
                   </div>
                 </div>
               </div>

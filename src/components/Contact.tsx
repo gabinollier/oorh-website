@@ -31,7 +31,7 @@ export function Contact() {
                 <div className="flex items-center gap-3 text-rose-700">
                   <MessageSquare size={20} />
                   <span className="font-medium text-lg">
-                    À votre écoute !
+                    À vos côtés !
                   </span>
                 </div>
                 <p className="text-md text-gray-600 mt-2">
@@ -93,9 +93,9 @@ export function Contact() {
                     <Clock className="text-rose-600" size={24} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Disponibilité</h4>
+                    <h4 className="font-semibold text-gray-900 mb-1">Modalités d’interventions</h4>
                     <p className="text-gray-700 text-lg">
-                      Du lundi au vendredi<br/>
+                      Quelques jours par mois, par semaine, ou plus, selon vos besoins<br/>
                     </p>
                   </div>
                 </div>

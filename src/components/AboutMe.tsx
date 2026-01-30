@@ -124,8 +124,7 @@ export function AboutMe() {
           </h2>
           <div className="max-w-3xl">
             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
-              Forte d’une expérience confirmée dans divers environnements, j’apporte une double expertise tant opérationnelle que stratégique. Mon approche combine savoir faire et savoir être pour créer des solutions et des outils adaptées à vos enjeux.
-
+              Forte d’une expérience confirmée, à des postes en responsabilités RH et gestion administrative et financière, dans divers environnements, j’apporte une double expertise tant opérationnelle que stratégique. Mon approche combine savoir-faire et savoir-être pour créer et faire vivre des solutions et des outils adaptés à vos enjeux.
             </p>
           </div>
         </div>
@@ -142,7 +141,7 @@ export function AboutMe() {
             </div>
             <p className="text-gray-700 leading-relaxed">
               Mon expérience, mon expertise, mes connaissances et compétences me permettent d&apos;être
-              <span className="font-semibold"> immédiatement opérationnelle</span>.
+              <span className="font-semibold"> immédiatement opérationnelle</span> en prenant en compte tous les paramètres de votre entreprise, de manière globale.
             </p>
           </div>
 
@@ -183,7 +182,7 @@ export function AboutMe() {
               <h3 className="text-2xl font-bold text-rose-900">Le petit plus</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Un <span className="font-semibold">Master 2 tout récent</span> de Management des Ressources Humaines
+              Un <span className="font-semibold">Master 2</span> de Management des Ressources Humaines
               et des Organisations à l&apos;IAE de Lyon qui fut 12 mois riches en apprentissage, perfectionnement,
               ouverture d&apos;esprit et prise de hauteur.
             </p>
