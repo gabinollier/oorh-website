@@ -92,8 +92,7 @@ export function Domains() {
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 max-w-5xl motion-opacity-in-0 motion-translate-y-in-25 motion-duration-1000 motion-delay-200">
             <span>Mon expertise couvre tous les contours de la fonction RH pour piloter, structurer, développer et sécuriser la gestion de vos Ressources Humaines mais aussi la gestion administrative et financière de votre entreprise.
-</span> <br/>
-            <span className="mt-3 block">Elle peut être complétée par un volet de gestion administrative et financière.</span>
+            </span> 
           </p>
         </div>
 
