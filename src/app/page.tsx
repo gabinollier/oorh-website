@@ -17,7 +17,7 @@ export default function Home() {
         <AboutMe />
         <Services />
         <Domains />
-        <Clients />
+        {/* <Clients /> */}
         <Contact />
       </main>
       <Footer />
